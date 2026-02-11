@@ -4431,27 +4431,23 @@ td:last-child {
 }
 
 @media screen and (max-width: 600px) {
+    
     .ss-go-top {
         right: calc(var(--vspace-0_25) * -1);
     }
 }
 
 @media screen and (max-width: 400px) {
-    .ss-go-top {
-        right: -2rem;
+        .ss-go-top {
+            right: -2rem;
     }
-
-.center_contact {
-        display: grid;
-        justify-content: center;
-        min-height: 100vh;
-        margin-left: auto;
-        margin-right: auto;
-        margin: 0 auto;
 }
 
-ontact-form {
+.end_content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+}
+
+.end_div {
+    padding: 20px;
 }
