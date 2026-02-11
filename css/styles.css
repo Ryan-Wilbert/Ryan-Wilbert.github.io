@@ -94,7 +94,7 @@
    * color-2(#2F352B)
    * color-3(#1A1A1A)
    */
-    --color-1: hsla(12, 75%, 45%, 1);
+    --color-1: rgb(176, 70, 230);
     --color-2: hsla(96, 10%, 19%, 1);
     --color-3: hsla(0, 0%, 10%, 1);
 
@@ -1475,7 +1475,7 @@ dfn[title] {
 }
 
 mark {
-    background: var(--color-1-lightest);
+    background: var(--color-1);
     color     : var(--color-text);
 }
 
@@ -3896,7 +3896,7 @@ td:last-child {
     content         : "";
     height          : 0.7em;
     width           : 3px;
-    background-color: var(--color-1);
+    background-color: rgb(176, 70, 230);;
     transform       : translateY(-50%);
     position        : absolute;
     left            : 0;
@@ -4440,4 +4440,18 @@ td:last-child {
     .ss-go-top {
         right: -2rem;
     }
+
+.center_contact {
+        display: grid;
+        justify-content: center;
+        min-height: 100vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin: 0 auto;
+}
+
+ontact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
