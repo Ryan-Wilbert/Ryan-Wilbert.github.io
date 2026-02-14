@@ -4445,9 +4445,19 @@ td:last-child {
 
 .end_content {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
 
-.end_div {
-    padding: 20px;
+.form {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(176, 70, 230);
+    border-spacing: 100px;
 }
+
+#end_div {
+    width: 300px;
+    margin-left: 35%;
+    margin-right: 25%;
+}
+
