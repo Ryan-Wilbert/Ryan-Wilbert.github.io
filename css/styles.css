@@ -4456,8 +4456,11 @@ td:last-child {
 }
 
 #end_div {
-    width: 300px;
-    margin-left: 35%;
+    width: 600px;
+    margin-left: 25%;
     margin-right: 25%;
 }
 
+input, textarea {
+    color: white !important;
+}
